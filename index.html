@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Everything!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌟 Download Anything Store 🌟</h1>
+        <p>Why buy when you can download? Save money with these totally real downloads!</p>
+    </header>
+
+    <main>
+        <div class="download-grid">
+            <div class="download-card" id="wifi-card">
+                <img src="/api/placeholder/200/200" alt="WiFi Icon">
+                <h2>Download WiFi</h2>
+                <p>Never pay for internet again! Just download our premium WiFi package.</p>
+                <div class="progress-bar" id="wifi-progress"></div>
+                <button onclick="startDownload('wifi')" class="download-btn">Download WiFi</button>
+                <a href="#" class="real-download" id="wifi-real-link">Get Actual File</a>
+            </div>
+
+            <div class="download-card" id="data-card">
+                <img src="/api/placeholder/200/200" alt="Data Icon">
+                <h2>Download Data</h2>
+                <p>Unlimited mobile data? Yes please! Download 1TB of data instantly.</p>
+                <div class="progress-bar" id="data-progress"></div>
+                <button onclick="startDownload('data')" class="download-btn">Download Data</button>
+                <a href="#" class="real-download" id="data-real-link">Get Actual File</a>
+            </div>
+
+            <div class="download-card" id="storage-card">
+                <img src="/api/placeholder/200/200" alt="Storage Icon">
+                <h2>Download Storage</h2>
+                <p>Running out of space? Download an extra 2TB of storage now!</p>
+                <div class="progress-bar" id="storage-progress"></div>
+                <button onclick="startDownload('storage')" class="download-btn">Download Storage</button>
+                <a href="#" class="real-download" id="storage-real-link">Get Actual File</a>
+            </div>
+
+            <div class="download-card" id="battery-card">
+                <img src="/api/placeholder/200/200" alt="Battery Icon">
+                <h2>Download Battery</h2>
+                <p>Low battery? Download an extra 100% charge instantly!</p>
+                <div class="progress-bar" id="battery-progress"></div>
+                <button onclick="startDownload('battery')" class="download-btn">Download Battery</button>
+                <a href="#" class="real-download" id="battery-real-link">Get Actual File</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Disclaimer: This is a joke website. You cannot actually download physical resources. But you can download real files using the "Get Actual File" links!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
